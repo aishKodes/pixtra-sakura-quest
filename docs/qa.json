@@ -1,0 +1,48 @@
+{
+  "testedAt": "2026-10-16T12:40:22.928Z",
+  "browser": "Installed Google Chrome via Playwright, headless; WebGL2 available",
+  "issues": {
+    "errors": [],
+    "warnings": [],
+    "failedRequests": [],
+    "badResponses": []
+  },
+  "checks": [
+    "Start acquires real browser pointer lock",
+    "E-bike summons with V; mount via E: true; dismount and recall exercised",
+    "Planet view toggles and returns to walking view",
+    "Original train advances throughout exploration",
+    "All five tokens reached using original walking/collision physics, collected once, and completion overlay displayed",
+    "Restart restores all five tokens, resets counter and player",
+    "Refresh restores opening scene; empty soundtrack makes no audio requests",
+    "390px presentation captured; keyboard/mouse required for gameplay"
+  ],
+  "paths": [
+    {
+      "name": "Railway crossing",
+      "cells": 8,
+      "metres": 4.94558441227157
+    },
+    {
+      "name": "Shopping alley",
+      "cells": 21,
+      "metres": 13.739696961967
+    },
+    {
+      "name": "Lantern street",
+      "cells": 49,
+      "metres": 30.29116882454314
+    },
+    {
+      "name": "Library corner",
+      "cells": 35,
+      "metres": 22.139696961966994
+    },
+    {
+      "name": "Shrine approach",
+      "cells": 128,
+      "metres": 82.41320343559639
+    }
+  ],
+  "audioAvailable": false
+}

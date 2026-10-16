@@ -1,0 +1,23 @@
+{
+  "name": "pixtra-sakura-quest",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Collect five glowing blossoms in an anime-inspired town. Pixtra adaptation of Sakura Crossing.",
+  "license": "MIT",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "play": "vite build && vite preview --port 5179 --open"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
